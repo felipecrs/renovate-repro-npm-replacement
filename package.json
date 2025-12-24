@@ -1,54 +1,10 @@
 {
-  "name": "@example/backstage-plugin-a",
+  "name": "renovate-repro-npm-replacement",
   "version": "0.1.0",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
-  "license": "Apache-2.0",
-  "private": true,
-  "publishConfig": {
-    "access": "public",
-    "main": "dist/index.esm.js",
-    "types": "dist/index.d.ts"
-  },
-  "backstage": {
-    "role": "frontend-plugin",
-    "pluginId": "d",
-    "pluginPackages": [
-      "@example/backstage-plugin-a"
-    ]
-  },
-  "sideEffects": false,
-  "scripts": {
-    "start": "backstage-cli package start",
-    "build": "backstage-cli package build",
-    "lint": "backstage-cli package lint",
-    "test": "backstage-cli package test",
-    "clean": "backstage-cli package clean",
-    "prepack": "backstage-cli package prepack",
-    "postpack": "backstage-cli package postpack"
-  },
   "dependencies": {
-    "@backstage/catalog-model": "^1.7.5",
-    "@backstage/core-components": "^0.17.4",
-    "@backstage/core-plugin-api": "^1.10.9",
-    "@backstage/errors": "^1.2.7",
-    "@backstage/plugin-catalog-react": "^1.19.1",
     "@material-ui/core": "^4.9.13",
     "@material-ui/icons": "^4.9.1",
     "@mui/icons-material": "^6.4.6",
-    "@mui/material": "^6.1.7",
-    "@xyflow/react": "^12.4.3",
-    "react-use": "^17.2.4"
-  },
-  "peerDependencies": {
-    "react": "^17.0.0 || ^18.0.0"
-  },
-  "devDependencies": {
-    "@backstage/cli": "^0.33.1",
-    "@backstage/dev-utils": "^1.1.12",
-    "@testing-library/jest-dom": "6.0.0"
-  },
-  "files": [
-    "dist"
-  ]
+    "@mui/material": "^6.1.7"
+  }
 }
