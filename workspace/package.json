@@ -1,5 +1,5 @@
 {
-  "name": "@example/backstage-plugin-a",
+  "name": "@example/backstage-plugin-b",
   "version": "0.1.0",
   "main": "src/index.ts",
   "types": "src/index.ts",
@@ -28,6 +28,8 @@
     "@backstage/plugin-catalog-react": "^1.19.1",
     "@material-ui/core": "^4.9.13",
     "@material-ui/icons": "^4.9.1",
+    "@mui/icons-material": "^6.4.6",
+    "@mui/material": "^6.1.7",
     "@xyflow/react": "^12.4.3",
     "react-use": "^17.2.4"
   },
