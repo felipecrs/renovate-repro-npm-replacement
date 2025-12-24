@@ -6,7 +6,7 @@
             "enabled": false
         },
         {
-            "matchPackageNames": "@material-ui/*",
+            "matchUpdateTypes": "replacement",
             "enabled": true
         }
     ]
